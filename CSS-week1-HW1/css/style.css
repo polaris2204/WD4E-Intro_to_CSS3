@@ -34,3 +34,34 @@ h1 {
 p {
     line-height: 1.6;
 }
+/* Nav - inline-block, width 80% */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Ảnh trong nav width 10% */
+nav img {
+    width: 10%;
+}
+
+/* Grid 2 cột */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+/* Ảnh trong grid width 100% */
+.grid img {
+    width: 100%;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
